@@ -3,6 +3,10 @@
 import Image from "next/image";
 import { useState } from "react";
 
+// If you are looking for mobile support, please refer to the
+// following implementation by @daviddecorso
+// https://github.com/unhingedmagikarp/comparison-slider/tree/mobile-support
+
 export const Slider = () => {
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
